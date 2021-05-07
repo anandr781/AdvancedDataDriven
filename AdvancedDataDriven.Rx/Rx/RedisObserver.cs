@@ -1,7 +1,7 @@
 using StackExchange.Redis;
 using System;
 
-namespace AdvancedDataDrivenRx
+namespace AdvancedDataDriven.Rx
 {
     public class RedisObserver : IObserver<StreamEntriesArgs>
     {

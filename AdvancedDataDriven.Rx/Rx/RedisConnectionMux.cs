@@ -1,6 +1,6 @@
 using StackExchange.Redis;
 
-namespace AdvancedDataDrivenRx
+namespace AdvancedDataDriven.Rx
 {
 
   internal  class RedisConnectionMux 

@@ -5,14 +5,14 @@ using NUnit.Framework;
 using System.Threading.Tasks;
 using System.Collections.Generic;
 
-namespace AdvancedDataDrivenRx
+namespace AdvancedDataDriven.Rx
 {
-    public class Asynchrony
+    public class IOAsynchrony
     {
 
-        const string _FOLDERPATH = @"C:\Workarea\Seagate-4TB-USD-HDD-Backup\Anand\Workarea\SourceCode\AdvancedDataDrivenCSharp\AdvancedDataDrivenRx";
+        const string _FOLDERPATH = @"C:\Workarea\Seagate-4TB-USD-HDD-Backup\Anand\Workarea\SourceCode\AdvancedDataDrivenCSharp\AdvancedDataDriven.Rx";
 
-        public Asynchrony()
+        public IOAsynchrony()
         {
 
         }
@@ -82,20 +82,20 @@ namespace AdvancedDataDrivenRx
         [Test]
         public void TestIdentifyFilesFromDirectory()
         {
-            string[] s = new Asynchrony().IdentifyFilesFromDirectory();
+            string[] s = new IOAsynchrony().IdentifyFilesFromDirectory();
             Assert.IsTrue(s != null && s.Length == 6);
         }
 
         [Test]
         public void TestDoFileReadLogic()
         {
-            Assert.IsTrue(new Asynchrony().DoFileReadLogic() > 0);
+            Assert.IsTrue(new IOAsynchrony().DoFileReadLogic() > 0);
         }
 
         [Test]
         public void TestDoFileReadAsyncLogic()
         {
-            new Asynchrony().DoFileReadLogicASync();
+            new IOAsynchrony().DoFileReadLogicASync();
             System.Threading.Thread.Sleep(5000);
             Assert.IsTrue(true);
         }

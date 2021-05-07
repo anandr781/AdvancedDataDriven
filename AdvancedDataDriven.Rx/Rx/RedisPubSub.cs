@@ -3,7 +3,7 @@ using System.Reactive.Linq;
 using StackExchange.Redis;
 using System;
 
-namespace AdvancedDataDrivenRx
+namespace AdvancedDataDriven.Rx
 {
     public class RedisPubSub
     {

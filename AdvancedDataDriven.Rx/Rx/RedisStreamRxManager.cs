@@ -7,7 +7,7 @@ using System.Timers;
 /// For StackExchange.Redis Streams documentation visit : 
 /// https://github.com/StackExchange/StackExchange.Redis/blob/main/docs/Streams.md
 
-namespace AdvancedDataDrivenRx
+namespace AdvancedDataDriven.Rx
 {
 
     public class RedisStreamRxManager
