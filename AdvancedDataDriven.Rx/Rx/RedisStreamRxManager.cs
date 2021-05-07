@@ -46,12 +46,7 @@ namespace AdvancedDataDriven.Rx
 
         }
 
-        public void RedisStreamRxPublisher(string redisStreamName, string message)
-        {
-            var db = rconn.GetDatabase();
-
-        }
-
+       
     }
 
     #region Event Definition
