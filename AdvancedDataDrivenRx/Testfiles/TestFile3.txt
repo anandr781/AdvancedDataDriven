@@ -1,0 +1,1 @@
+The anonymous type declaration starts with the new keyword. The declaration initializes a new type that uses only two properties from Product. This causes a smaller amount of data to be returned in the query.
