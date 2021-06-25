@@ -19,6 +19,8 @@ CONTAINER ID   IMAGE     COMMAND                  CREATED        STATUS        P
 
 NOTE : Remember to login to the container interactively for all commands below
 
+container#root$>redis-cli
+
 127.0.0.1:6379> XADD myStream * sensorId 1
 1620237180298-0
 
