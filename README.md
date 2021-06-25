@@ -17,6 +17,7 @@ C:\>docker ps
 CONTAINER ID   IMAGE     COMMAND                  CREATED        STATUS        PORTS                    NAMES
 75e6262bc7b1   redis     "docker-entrypoint.s…"   19 hours ago   Up 19 hours   0.0.0.0:6379->6379/tcp   redis-image
 
+NOTE : Remember to login to the container interactively for all commands below
 
 127.0.0.1:6379> XADD myStream * sensorId 1
 1620237180298-0
