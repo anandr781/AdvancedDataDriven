@@ -24,8 +24,10 @@ namespace AdvancedDataDriven.Cmd
         {
             var r = new RedisStreamRxManager();
 
+            //Generate an IObservable
             var listener = r.RedisStreamRxSubscriber("myStream"); //Ensure this stream exists
 
+            //Wiring the Observable and the Observer together
             using (IDisposable disposable = listener.Subscribe(new RedisObserver(OnStreamDataAvailable)))
             {
                 Console.ReadLine();
