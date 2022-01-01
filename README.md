@@ -4,8 +4,6 @@ Advanced Data Driven Apps - Intends to demonstate the highly scalable nature of 
   * Reactive Redis
   * Asynchronous APIs [Paging APIs , Large result] - Yet to come
 
-## Aspnet Core Best Practices : 
-https://docs.microsoft.com/en-us/aspnet/core/performance/performance-best-practices?view=aspnetcore-5.0#understand-hot-code-paths
 
 ## Run Redis Container and Redis Streams to run the project
 ```shell
